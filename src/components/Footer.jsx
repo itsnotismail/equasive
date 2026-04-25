@@ -13,15 +13,19 @@ export default function Footer() {
           <EquasiveLogo className="h-5 w-auto text-slate-500 mx-auto sm:mx-0" />
           <p className="text-slate-500 text-sm">© 2026 Equasive. All rights reserved.</p>
         </div>
-        <div className="w-full flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-sm text-slate-500">
-          <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-2">
-            <a href={`tel:${TEL}`} className="hover:text-slate-300 transition-colors">
-              {TEL_SHORT}
-            </a>
-            <a href={`mailto:${EMAIL}`} className="hover:text-slate-300 transition-colors break-all sm:break-normal">
-              {EMAIL}
-            </a>
-            <span className="text-slate-500 max-w-sm sm:max-w-none">Rainforest Residence, K. Hulhumale&apos;, Maldives</span>
+        <div className="w-full flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 text-sm text-slate-500">
+          <div className="flex flex-col items-center sm:items-start gap-3 max-w-md">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap items-center sm:items-start justify-center sm:justify-start gap-x-6 gap-y-2">
+              <a href={`tel:${TEL}`} className="hover:text-slate-300 transition-colors">
+                {TEL_SHORT}
+              </a>
+              <a href={`mailto:${EMAIL}`} className="hover:text-slate-300 transition-colors break-all sm:break-normal">
+                {EMAIL}
+              </a>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-500 text-center sm:text-left leading-relaxed">
+              Mauva, Maajehi Goalhi, S. Hithadhoo, Maldives
+            </p>
           </div>
           <nav className="flex flex-wrap justify-center sm:justify-end gap-6">
             <Link to="/contact" className="hover:text-slate-300 transition-colors">Contact</Link>
