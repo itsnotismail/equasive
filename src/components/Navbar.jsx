@@ -13,6 +13,12 @@ export default function Navbar() {
         <nav className="flex items-center gap-6 text-sm text-slate-400">
           <a href={pathname === '/' ? '#about' : '/#about'} className="hover:text-white transition-colors">About</a>
           <a href={pathname === '/' ? '#products' : '/#products'} className="hover:text-white transition-colors">Products</a>
+          <Link
+            to="/contact"
+            className={`hover:text-white transition-colors${pathname === '/contact' ? ' text-white' : ''}`}
+          >
+            Contact
+          </Link>
         </nav>
       </div>
     </header>
