@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
@@ -18,7 +19,7 @@ export default function Privacy() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">1. Introduction</h2>
               <p>
-                {COMPANY} ("we", "us", or "our") is committed to protecting your personal information and your right to privacy. This Privacy &amp; Cookie Policy explains what information we collect, how we use it, and what rights you have in relation to it when you use our website or any of our software products and services (collectively, "Services").
+                {COMPANY} ("we", "us", or "our") is committed to protecting your personal information and your right to privacy. This Privacy &amp; Cookie Policy explains what information we collect, how we use it, and what rights you have in relation to it when you use our website or any of our software products and services (collectively, "Services"), including <span className="text-slate-200">Seytu</span>, our customer messaging and order management platform.
               </p>
               <p className="mt-3">
                 By using our Services, you agree to the collection and use of information in accordance with this policy.
@@ -98,7 +99,11 @@ export default function Privacy() {
                 <li>Right to withdraw consent at any time, where processing is based on consent.</li>
               </ul>
               <p className="mt-3">
-                To exercise any of these rights, please contact us through our website.
+                To exercise any of these rights, please use the contact details in section 15 below (email, phone, or our{' '}
+                <Link to="/contact" className="text-brand-mid hover:text-brand-teal underline underline-offset-2">
+                  contact page
+                </Link>
+                ). We will respond within the timeframe required by applicable law.
               </p>
             </section>
 
@@ -152,17 +157,74 @@ export default function Privacy() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-white mb-3">12. Changes to This Policy</h2>
+              <h2 className="text-xl font-semibold text-white mb-3">12. Facebook, Instagram, and Messenger (Meta platforms)</h2>
+              <p>
+                Where our Services (including <span className="text-slate-300">Seytu</span>) are connected to Meta products such as Facebook, Instagram, or Messenger, we process information in accordance with Meta&apos;s Platform Terms and applicable policies, and only for the purposes described in this policy.
+              </p>
+              <p className="mt-3">
+                <span className="text-slate-300 font-medium">Who is responsible.</span> The business that connects its Meta channels to our Services is typically the data controller for its customers&apos; messages and related information. {COMPANY} acts as a processor or service provider on behalf of that business to provide messaging, customer support, order management, and related features the business has requested.
+              </p>
+              <p className="mt-3">
+                <span className="text-slate-300 font-medium">Categories of information.</span> Depending on how a business configures the integration, this may include identifiers, message content, profile or display names as made available by the platform, timestamps, and information related to orders or support requests handled through the connected channels.
+              </p>
+              <p className="mt-3">
+                <span className="text-slate-300 font-medium">How we use it.</span> We use such information only to operate the features the business has enabled (for example unified inbox, AI-assisted replies with human oversight where applicable, order creation, and synchronisation with order or POS systems the business connects). We do <strong className="text-slate-200 font-semibold">not sell</strong> personal information, and we do not use it for unrelated advertising on our own behalf.
+              </p>
+              <p className="mt-3">
+                <span className="text-slate-300 font-medium">Sharing.</span> Information is shared with subprocessors only as needed to host and operate our Services under contract, or where required by law. Meta may process data according to its own terms when you use Meta products.
+              </p>
+            </section>
+
+            <section id="data-deletion">
+              <h2 className="text-xl font-semibold text-white mb-3">13. Data deletion and account closure</h2>
+              <p>
+                <span className="text-slate-300 font-medium">Business customers.</span> If your organisation uses our Services and you wish to delete or export data, or to close your account, contact us using the details in the Contact section below. We will respond within a reasonable time and in line with applicable law.
+              </p>
+              <p className="mt-3">
+                <span className="text-slate-300 font-medium">Individuals who messaged a business.</span> If you interacted with a business that uses our Services through WhatsApp, Instagram, Messenger, or another channel, and you want access to or deletion of your personal data, please contact that business in the first instance, since they are usually the controller of your conversation data. You may also contact us and we will forward your request to the relevant customer where we can identify them, or advise you accordingly.
+              </p>
+              <p className="mt-3 text-slate-400 text-sm">
+                For Meta-specific data deletion resources, you may also refer to Meta&apos;s help documentation for Facebook, Instagram, and Messenger.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-3">14. Changes to This Policy</h2>
               <p>
                 We may update this policy from time to time. When we do, we will update the effective date at the top of this page. We encourage you to review this policy periodically to stay informed about how we protect your information.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-white mb-3">13. Contact</h2>
+              <h2 className="text-xl font-semibold text-white mb-3">15. Contact</h2>
               <p>
-                If you have any questions or concerns about this Privacy &amp; Cookie Policy, please reach out through our website.
+                For any questions about this Privacy &amp; Cookie Policy, including requests to exercise your privacy rights or enquiries about our processing of data from Meta platforms, you can reach {COMPANY} at:
               </p>
+              <ul className="list-none space-y-2 mt-4 text-slate-400">
+                <li>
+                  <span className="text-slate-300 font-medium">Email:</span>{' '}
+                  <a href="mailto:15m41l.a18@gmail.com" className="text-brand-mid hover:text-brand-teal underline underline-offset-2 break-all">
+                    15m41l.a18@gmail.com
+                  </a>
+                  {' '}(including privacy-related requests)
+                </li>
+                <li>
+                  <span className="text-slate-300 font-medium">Phone:</span>{' '}
+                  <a href="tel:+9609990805" className="text-brand-mid hover:text-brand-teal underline underline-offset-2">
+                    +960 999 0805
+                  </a>
+                </li>
+                <li>
+                  <span className="text-slate-300 font-medium">Postal address:</span> Mauva, Maajehi Goalhi, S. Hithadhoo, Maldives
+                </li>
+                <li>
+                  <span className="text-slate-300 font-medium">Web:</span>{' '}
+                  <Link to="/contact" className="text-brand-mid hover:text-brand-teal underline underline-offset-2">
+                    Contact page
+                  </Link>
+                  {' '}(full business details and service address)
+                </li>
+              </ul>
             </section>
 
           </div>
