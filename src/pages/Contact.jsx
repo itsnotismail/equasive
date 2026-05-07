@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 const TEL = '+9609990805'
 const TEL_DISPLAY = '+960 999 0805'
@@ -13,7 +14,7 @@ export default function Contact() {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-white mb-2">Contact</h1>
           <p className="text-slate-500 text-sm mb-12">
-            Get in touch with Equasive. We will respond to email and phone enquiries as soon as we can.
+            Equasive is a registered sole proprietorship in the Maldives and the operator of products including Seytu. Use the details below for general, sales, and privacy-related enquiries. We aim to respond within a reasonable time.
           </p>
 
           <div className="space-y-10 text-slate-300 leading-relaxed">
@@ -38,6 +39,17 @@ export default function Contact() {
                   </dd>
                 </div>
               </dl>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-4">Privacy and data requests</h2>
+              <p className="text-slate-400 leading-relaxed">
+                For questions about how we collect, use, or share personal data—including data processed when businesses connect Facebook, Instagram, Messenger, or other channels—or to exercise your privacy rights, use the email or phone above or read our{' '}
+                <Link to="/privacy" className="text-emerald-400/90 hover:text-emerald-300 transition-colors">
+                  Privacy &amp; Cookie Policy
+                </Link>
+                .
+              </p>
             </section>
 
             <section>

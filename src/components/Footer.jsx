@@ -28,6 +28,7 @@ export default function Footer() {
             </p>
           </div>
           <nav className="flex flex-wrap justify-center sm:justify-end gap-6">
+            <Link to="/seytu" className="hover:text-slate-300 transition-colors">Seytu</Link>
             <Link to="/contact" className="hover:text-slate-300 transition-colors">Contact</Link>
             <Link to="/terms" className="hover:text-slate-300 transition-colors">Terms</Link>
             <Link to="/privacy" className="hover:text-slate-300 transition-colors">Privacy</Link>

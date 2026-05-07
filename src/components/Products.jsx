@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Products() {
   return (
     <section id="products" className="py-28 px-6 border-t border-white/5">
@@ -26,7 +28,7 @@ export default function Products() {
               AI-powered customer engagement, chat automation and inventory management for online shops. Supports WhatsApp, Instagram, Messenger, and Viber.
             </p>
 
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-8">
               {['WhatsApp', 'Instagram', 'Messenger', 'Viber'].map(channel => (
                 <span
                   key={channel}
@@ -36,6 +38,12 @@ export default function Products() {
                 </span>
               ))}
             </div>
+            <Link
+              to="/seytu"
+              className="inline-flex items-center text-sm font-medium text-brand-mid hover:text-brand-teal transition-colors"
+            >
+              Learn more about Seytu →
+            </Link>
           </div>
         </div>
       </div>
