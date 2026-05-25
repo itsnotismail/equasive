@@ -12,14 +12,14 @@ export default function Products() {
             <div className="flex items-center gap-5 mb-6">
               <div className="w-14 h-14 rounded-xl overflow-hidden bg-dark-700 flex-shrink-0">
                 <img
-                  src="/seytu-icon.png"
-                  alt="Seytu icon"
+                  src="/comvor-icon.png"
+                  alt="Comvor icon"
                   className="w-full h-full object-cover"
                 />
               </div>
               <img
-                src="/seytu-logo.svg"
-                alt="Seytu"
+                src="/comvor-logo.svg"
+                alt="Comvor"
                 className="h-9 w-auto"
               />
             </div>
@@ -39,10 +39,10 @@ export default function Products() {
               ))}
             </div>
             <Link
-              to="/seytu"
+              to="/comvor"
               className="inline-flex items-center text-sm font-medium text-brand-mid hover:text-brand-teal transition-colors"
             >
-              Learn more about Seytu →
+              Learn more about Comvor →
             </Link>
           </div>
         </div>

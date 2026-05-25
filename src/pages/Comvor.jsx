@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const DEMO_EMAIL = '15m41l.a18@gmail.com'
-const demoMailto = `mailto:${DEMO_EMAIL}?subject=${encodeURIComponent('Seytu — demo request')}`
+const demoMailto = `mailto:${DEMO_EMAIL}?subject=${encodeURIComponent('Comvor — demo request')}`
 
 const problems = [
   'Reply quickly',
@@ -40,7 +40,7 @@ const featureCards = [
   },
   {
     title: 'POS integration',
-    body: 'Connect Seytu with existing POS or order systems to sync products, prices, availability, and order updates.',
+    body: 'Connect Comvor with existing POS or order systems to sync products, prices, availability, and order updates.',
   },
   {
     title: 'Human handover',
@@ -70,7 +70,7 @@ const targets = [
   'Businesses using WhatsApp, Instagram, or Facebook for sales',
 ]
 
-export default function Seytu() {
+export default function Comvor() {
   return (
     <>
       <Navbar />
@@ -82,15 +82,15 @@ export default function Seytu() {
               <p className="text-sm font-medium tracking-widest uppercase text-brand-mid mb-4">Product</p>
               <div className="flex items-center gap-5 mb-8">
                 <div className="w-14 h-14 rounded-xl overflow-hidden bg-dark-800 border border-white/5 flex-shrink-0">
-                  <img src="/seytu-icon.png" alt="" className="w-full h-full object-cover" />
+                  <img src="/comvor-icon.png" alt="" className="w-full h-full object-cover" />
                 </div>
-                <img src="/seytu-logo.svg" alt="Seytu" className="h-10 w-auto" />
+                <img src="/comvor-logo.svg" alt="Comvor" className="h-10 w-auto" />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                 AI-assisted order management for modern businesses
               </h1>
               <p className="text-lg text-slate-400 leading-relaxed mb-8 max-w-2xl">
-                Seytu helps businesses manage customer conversations, online orders, bookings, and POS-connected workflows
+                Comvor helps businesses manage customer conversations, online orders, bookings, and POS-connected workflows
                 from channels like WhatsApp, Instagram, Facebook Messenger, and web chat.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -108,7 +108,7 @@ export default function Seytu() {
                 </a>
               </div>
               <p className="text-xs text-slate-600 mt-6">
-                Seytu is offered by{' '}
+                Comvor is offered by{' '}
                 <Link to="/contact" className="text-slate-500 hover:text-slate-400 underline underline-offset-2">
                   Equasive
                 </Link>
@@ -155,11 +155,11 @@ export default function Seytu() {
           </ul>
         </section>
 
-        {/* What Seytu does */}
+        {/* What Comvor does */}
         <section className="max-w-6xl mx-auto mb-24">
-          <h2 className="text-3xl font-bold text-white mb-4">What Seytu does</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">What Comvor does</h2>
           <p className="text-slate-400 mb-8 max-w-2xl">
-            Seytu brings customer messaging, AI assistance, and order management into one platform.
+            Comvor brings customer messaging, AI assistance, and order management into one platform.
           </p>
           <ul className="space-y-3 max-w-3xl">
             {coreCapabilities.map(cap => (
@@ -205,7 +205,7 @@ export default function Seytu() {
 
         {/* Target customers */}
         <section className="max-w-6xl mx-auto mb-24 py-16 border-y border-white/5">
-          <h2 className="text-3xl font-bold text-white mb-8">Who Seytu is for</h2>
+          <h2 className="text-3xl font-bold text-white mb-8">Who Comvor is for</h2>
           <div className="flex flex-wrap gap-2">
             {targets.map(t => (
               <span
@@ -223,7 +223,7 @@ export default function Seytu() {
           <div className="bg-dark-800 border border-white/5 rounded-2xl p-8 md:p-10 max-w-3xl">
             <h2 className="text-xl font-semibold text-white mb-4">Trust and data use</h2>
             <p className="text-slate-400 leading-relaxed">
-              Seytu only uses connected platform data to provide messaging, customer support, order management, and
+              Comvor only uses connected platform data to provide messaging, customer support, order management, and
               automation features for the business using the service. Customer data is used only to enable the requested
               service and is{' '}
               <strong className="text-slate-300 font-medium">not sold</strong>. For details on categories of data,
