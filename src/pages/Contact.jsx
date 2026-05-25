@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-white mb-2">Contact</h1>
           <p className="text-slate-500 text-sm mb-12">
-            Equasive is a registered sole proprietorship in the Maldives and the operator of products including Seytu. Use the details below for general, sales, and privacy-related enquiries. We aim to respond within a reasonable time.
+            Equasive is a registered sole proprietorship in the Maldives and the operator of products including Comvor. Use the details below for general, sales, and privacy-related enquiries. We aim to respond within a reasonable time.
           </p>
 
           <div className="space-y-10 text-slate-300 leading-relaxed">

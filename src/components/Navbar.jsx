@@ -14,10 +14,10 @@ export default function Navbar() {
           <a href={pathname === '/' ? '#about' : '/#about'} className="hover:text-white transition-colors">About</a>
           <a href={pathname === '/' ? '#products' : '/#products'} className="hover:text-white transition-colors">Products</a>
           <Link
-            to="/seytu"
-            className={`hover:text-white transition-colors${pathname === '/seytu' ? ' text-white' : ''}`}
+            to="/comvor"
+            className={`hover:text-white transition-colors${pathname === '/comvor' ? ' text-white' : ''}`}
           >
-            Seytu
+            Comvor
           </Link>
           <Link
             to="/contact"

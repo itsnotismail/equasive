@@ -19,7 +19,7 @@ export default function Privacy() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">1. Introduction</h2>
               <p>
-                {COMPANY} ("we", "us", or "our") is committed to protecting your personal information and your right to privacy. This Privacy &amp; Cookie Policy explains what information we collect, how we use it, and what rights you have in relation to it when you use our website or any of our software products and services (collectively, "Services"), including <span className="text-slate-200">Seytu</span>, our customer messaging and order management platform.
+                {COMPANY} ("we", "us", or "our") is committed to protecting your personal information and your right to privacy. This Privacy &amp; Cookie Policy explains what information we collect, how we use it, and what rights you have in relation to it when you use our website or any of our software products and services (collectively, "Services"), including <span className="text-slate-200">Comvor</span>, our customer messaging and order management platform.
               </p>
               <p className="mt-3">
                 By using our Services, you agree to the collection and use of information in accordance with this policy.
@@ -159,7 +159,7 @@ export default function Privacy() {
             <section>
               <h2 className="text-xl font-semibold text-white mb-3">12. Facebook, Instagram, and Messenger (Meta platforms)</h2>
               <p>
-                Where our Services (including <span className="text-slate-300">Seytu</span>) are connected to Meta products such as Facebook, Instagram, or Messenger, we process information in accordance with Meta&apos;s Platform Terms and applicable policies, and only for the purposes described in this policy.
+                Where our Services (including <span className="text-slate-300">Comvor</span>) are connected to Meta products such as Facebook, Instagram, or Messenger, we process information in accordance with Meta&apos;s Platform Terms and applicable policies, and only for the purposes described in this policy.
               </p>
               <p className="mt-3">
                 <span className="text-slate-300 font-medium">Who is responsible.</span> The business that connects its Meta channels to our Services is typically the data controller for its customers&apos; messages and related information. {COMPANY} acts as a processor or service provider on behalf of that business to provide messaging, customer support, order management, and related features the business has requested.
