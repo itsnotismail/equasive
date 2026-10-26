@@ -3,7 +3,7 @@ import EquasiveLogo from './EquasiveLogo'
 
 const TEL = '+9609990805'
 const TEL_SHORT = '+960 999 0805'
-const EMAIL = '15m41l.a18@gmail.com'
+const EMAIL = 'contact@equasive.com'
 
 export default function Footer() {
   return (

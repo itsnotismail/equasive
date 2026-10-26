@@ -203,8 +203,8 @@ export default function Privacy() {
               <ul className="list-none space-y-2 mt-4 text-slate-400">
                 <li>
                   <span className="text-slate-300 font-medium">Email:</span>{' '}
-                  <a href="mailto:15m41l.a18@gmail.com" className="text-brand-mid hover:text-brand-teal underline underline-offset-2 break-all">
-                    15m41l.a18@gmail.com
+                  <a href="mailto:contact@equasive.com" className="text-brand-mid hover:text-brand-teal underline underline-offset-2 break-all">
+                    contact@equasive.com
                   </a>
                   {' '}(including privacy-related requests)
                 </li>
@@ -222,7 +222,7 @@ export default function Privacy() {
                   <Link to="/contact" className="text-brand-mid hover:text-brand-teal underline underline-offset-2">
                     Contact page
                   </Link>
-                  {' '}(full business details and service address)
+                  {' '}(full business details)
                 </li>
               </ul>
             </section>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const TEL = '+9609990805'
 const TEL_DISPLAY = '+960 999 0805'
-const EMAIL = '15m41l.a18@gmail.com'
+const EMAIL = 'contact@equasive.com'
 
 export default function Contact() {
   return (
@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-white mb-2">Contact</h1>
           <p className="text-slate-500 text-sm mb-12">
-            Equasive is a registered sole proprietorship in the Maldives and the operator of products including Comvor. Use the details below for general, sales, and privacy-related enquiries. We aim to respond within a reasonable time.
+            Equasive is a registered business in the Maldives and the operator of products including Comvor. Use the details below for general, sales, and privacy-related enquiries. We aim to respond within a reasonable time.
           </p>
 
           <div className="space-y-10 text-slate-300 leading-relaxed">
@@ -53,17 +53,6 @@ export default function Contact() {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-white mb-4">Service address</h2>
-              <p className="text-slate-400">
-                Rainforest Residence
-                <br />
-                K. Hulhumale&apos;
-                <br />
-                Maldives
-              </p>
-            </section>
-
-            <section>
               <h2 className="text-xl font-semibold text-white mb-4">Registered address</h2>
               <p className="text-slate-400">
                 Mauva, Maajehi Goalhi
@@ -77,7 +66,7 @@ export default function Contact() {
             <section className="pt-2 border-t border-white/10">
               <h2 className="text-lg font-semibold text-white mb-3">Business registration</h2>
               <p className="text-slate-500 text-sm">
-                Sole proprietorship registered number <span className="text-slate-400">SP10512026</span>.
+                Business registration number <span className="text-slate-400">SP10512026</span>.
                 You can verify this business on the official registry:{' '}
                 <a
                   href="https://business.egov.mv/verify"

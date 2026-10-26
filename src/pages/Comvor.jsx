@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-const DEMO_EMAIL = '15m41l.a18@gmail.com'
+const DEMO_EMAIL = 'hello@comvor.com'
 const demoMailto = `mailto:${DEMO_EMAIL}?subject=${encodeURIComponent('Comvor — demo request')}`
 
 const problems = [
