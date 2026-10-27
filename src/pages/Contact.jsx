@@ -76,7 +76,7 @@ export default function Contact() {
                 >
                   business.egov.mv/verify
                 </a>
-                {' '}(verification code: <span className="text-slate-400 font-mono text-xs">bzhe-g5yg-2rp4-dqe8</span>).
+                .
               </p>
             </section>
           </div>
